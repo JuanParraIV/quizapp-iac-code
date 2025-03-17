@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "quizapp-tfstate"
+    bucket = "quizapp-example-iac"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
